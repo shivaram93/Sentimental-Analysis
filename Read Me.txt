@@ -1,0 +1,37 @@
+Title: User Product Review Analysis
+
+Duration: Jan 2017-May 2017
+
+Author: Shivaraman Sekar
+Guide: Prof. Jayakumar.S
+
+// the dataset is taken from online resources
+1. Implemented POS tagging, Stop words using NLTK. 
+
+2. Features are stored seperately.
+
+3. Also Implemented Naive Bayes and SVM using nltk package by pre-processing the dataset.
+
+Proposed:
+
+4. Created a class clalled Voting classifier and inherit all the existing classifiers and also add few more classifiers using SCI-KIT learn package.
+
+5. Calculate the mode and assign majority votes based on the predicted probabilities of all the combined classifiers.
+
+
+6. Return the mode value which is greater.
+
+
+7. Finding the confidence levels for the classifiers. we have algorithms voting. Tally the votes for and against the winning vote, and call this "confidence". 
+
+For example, 3/5 votes for positive is weaker than 5/5 votes. we can literally return the ratio of votes as a sort of confidence indicator.
+
+8. Find the accuracy (backend actually it works based on finding all true positive,true negative,false positive,false negative. (Inbuilt function)
+
+
+9. Plot the accuracy to compare with exisiting and proposed.
+
+
+10. Create a user interface to check for sentiment review using test data.
+
+
